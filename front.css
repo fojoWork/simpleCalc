@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(131, 131, 131);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    vertical-align: middle;
+    
+}
+
+button {
+    border-radius: 30px;
+    height: 30px;
+    width: 50px;
+    font-size: 16px;
+
+}
+#calculateButton {
+    width: 70px;
+    font-size: 15px;
+}
+
+button, #calculateButton {
+    margin: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#inputBox {
+    margin: 10px;
+    border-radius: 30px;
+}
+
+button, #calculateButton, #inputBox {
+    outline: 1px;
+    outline-style: solid;
+    
+}
+#btnClear {
+    border-radius: 0px;
+    margin: 20px;
+}
+
+.backgroundCalc {
+    position: relative;
+    background-color: black;
+}
